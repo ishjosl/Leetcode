@@ -7,3 +7,6 @@ class Solution:
                 return [ind, seen[target - num]]
             seen[num]= ind
             
+# Add number to dictionary, then loop through to find target - number. If target - num is found then return its index, if it is not found, then add it to the dictionary
+
+# return the ind of current value and the index of value in dict
